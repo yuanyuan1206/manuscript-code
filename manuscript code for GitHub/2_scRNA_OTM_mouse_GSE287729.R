@@ -123,7 +123,7 @@ DimPlot(mouse_OTM.harmony,label = T) + NoLegend()
 DimPlot(mouse_OTM.harmony,label = T,   split.by = "Group") + NoLegend()
 
 
-######Fig.1G, UMAP visualization with Rarres2 expression######
+######Fig.1H, UMAP visualization with Rarres2 expression######
 df_complete <- mouse_OTM.harmony@reductions$umap@cell.embeddings %>%
   as.data.frame() %>%
   cbind(
